@@ -31,9 +31,13 @@ repo to install.
 -   [**Recipe: Onboarding to Google Cloud**](./skills/cloud/google-cloud-recipe-onboarding)
 -   [**Recipe: Authenticating to Google Cloud**](./skills/cloud/google-cloud-recipe-auth)
 -   [**Recipe: Google Cloud Network Observability**](./skills/cloud/google-cloud-networking-observability)
--   [**Google Cloud Well-Architected Framework: Security**](./skills/cloud/google-cloud-waf-security)
--   [**Google Cloud Well-Architected Framework: Reliability**](./skills/cloud/google-cloud-waf-reliability)
--   [**Google Cloud Well-Architected Framework: Cost Optimization**](./skills/cloud/google-cloud-waf-cost-optimization)
+-   **Google Cloud Well-Architected Framework**:
+    - [Security](./skills/cloud/google-cloud-waf-security)
+    - [Reliability](./skills/cloud/google-cloud-waf-reliability)
+    - [Cost optimization](./skills/cloud/google-cloud-waf-cost-optimization)
+    - [Operational excellence](./skills/cloud/google-cloud-waf-operational-excellence)
+    - [Performance optimization](./skills/cloud/google-cloud-waf-performance-optimization)
+    - [Sustainability](./skills/cloud/google-cloud-waf-sustainability)
 
 ## Support
 
