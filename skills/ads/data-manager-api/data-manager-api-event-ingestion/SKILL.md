@@ -1,15 +1,15 @@
 ---
 name: data-manager-api-event-ingestion
 description: >-
-  Provides technical specifications and implementation details for event and conversion
-  ingestion to Google products using the Data Manager API /v1/events/ingest endpoint
+  Guides developers through implementing event and conversion ingestion to
+  Google products using the Data Manager API /v1/events/ingest endpoint
   and its associated client libraries. Use this skill when the user wants to upload
   offline conversions, enhanced conversions for leads, click conversions, Google
   Analytics web or app events, or any other event ingestion use case supported by
   the Data Manager API. Don't use for uploading audience members (use the
   data-manager-api-audience-ingestion skill).
 metadata:
-  version: 1.0
+  version: 1.1
   category: GoogleAds
 ---
 # Data Manager API Event Ingestion
@@ -78,10 +78,10 @@ for detailed installation instructions.
 1.  Clone the repository from GitHub using the commands from the table below.
 2.  Always use the latest available version of the library. Determine the
     actual version identifier (`VERSION`) from the cloned repository metadata.
-    - **Python**: Find the version in `pyproject.toml`
-    - **Java**: Find the version in `util/package.json` (as the `version`
+    - **Python**: Find the version in `pyproject.toml`.
+    - **Java**: Find the version in `data-manager-util/build.gradle`.
+    - **Node**: Find the version in `util/package.json` (as the `version`
       field).
-    - **Node**: Find the version in `composer.json` (as the `version` field).
 3.  Follow the language-specific instructions in the next section to build
     and install the utility dependency, replacing `VERSION` with the version
     identifier you found.
@@ -106,9 +106,9 @@ for detailed installation instructions.
     ```
 2.  Declare a dependency in your project's `requirements.txt` file (replacing
     `VERSION` with the identified version):
-    
+
     ```
-   google-ads-datamanager-util=VERSION
+   google-ads-datamanager-util==VERSION
     ```
 
 ##### Java
