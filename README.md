@@ -20,6 +20,7 @@ repo to install.
 ## Available Skills
 
 <!-- BEGIN SKILLS -->
+
 - **Getting started with Google Cloud**
   -   [**Authenticating to Google Cloud**](./skills/cloud/google-cloud-recipe-auth)
   -   [**Google Cloud Recipe: Foundation Builder**](./skills/cloud/google-cloud-recipe-foundation-builder)
@@ -61,13 +62,14 @@ repo to install.
   -   [**GKE Workload Scaling**](./skills/cloud/gke-scaling)
   -   [**Google Cloud global external Application Load Balancer Configuration Skill**](./skills/cloud/google-cloud-global-frontend-configuration)
   -   [**Google Cloud Networking Observability Expert**](./skills/cloud/google-cloud-networking-observability)
-- **Databases and analytics**
-  -   [**AlloyDB Basics**](./skills/cloud/alloydb-basics)
-  -   [**BigFrames Development Standards**](./skills/cloud/bigquery-bigframes)
-  -   [**BigQuery Asset Impact Analysis**](./skills/cloud/datalineage-bigquery-asset-impact-analysis)
-  -   [**BigQuery Basics**](./skills/cloud/bigquery-basics)
-  -   [**Bigtable Basics**](./skills/cloud/bigtable-basics)
-  -   [**Cloud SQL Basics**](./skills/cloud/cloud-sql-basics)
+-   **Databases and analytics**
+    -   [**AlloyDB Basics**](./skills/cloud/alloydb-basics)
+    -   [**BigFrames Development Standards**](./skills/cloud/bigquery-bigframes)
+    -   [**BigQuery Asset Impact Analysis**](./skills/cloud/datalineage-bigquery-asset-impact-analysis)
+    -   [**BigQuery Basics**](./skills/cloud/bigquery-basics)
+    -   [**Bigtable Basics**](./skills/cloud/bigtable-basics)
+    -   [**Cloud SQL Basics**](./skills/cloud/cloud-sql-basics)
+    -   [**Data Lineage Summary**](./skills/cloud/datalineage-summary)
 - **Developer tools**
   -   [**gcloud CLI Skill for AI Agents**](./skills/cloud/gcloud)
   -   [**Google Agents CLI Onboarding**](./skills/cloud/google-agents-cli-onboarding)
